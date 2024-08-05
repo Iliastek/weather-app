@@ -3,7 +3,8 @@
   position: relative;
 }
 
-.header, .footer {
+.header,
+.footer {
   width: 100%;
   min-height: 80px;
   background-color: rgb(180, 180, 239);
@@ -14,18 +15,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+
+.main {
+  padding-top: 80px;
 }
 
 .plus {
+  color: black;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%);
-  font-size: 40px;
+  font-size: 120px;
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: center;
@@ -45,14 +54,23 @@
 }
 
 .settings {
- width: 50px;
- position: absolute;
- right: 10px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
 }
 
 .home_buttonSvg {
   width: 50px;
-
-
 }
 
+.Overview {
+  color: black;
+  position: relative;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(62, 62, 72);
+  border-radius: 30px;
+  margin: 10%;
+}

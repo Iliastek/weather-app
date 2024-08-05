@@ -1,0 +1,10 @@
+.link-to-main {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
