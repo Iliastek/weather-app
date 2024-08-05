@@ -1,0 +1,51 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+}
+
+.header, .footer {
+  width: 100%;
+  min-height: 80px;
+  background-color: rgb(180, 180, 239);
+  color: wheat;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 40px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Box {
+  position: relative;
+  top: 10%;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(62, 62, 72);
+  border-radius: 30px;
+  margin: 10%;
+}
+
+.settings {
+ width: 50px;
+ position: absolute;
+ right: 10px;
+}
