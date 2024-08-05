@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-const settingsSVG = require('../../images/svg/settings.svg').default;
 import SettingsCog from '../../components/SettingsCog/index.tsx';
 import Home from '../Home/index.tsx';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-const sunSvg = require('../../images/svg/sun.svg').default;
 import Settings from '../Settings/index.tsx';
+
+const settingsSVG = require('../../images/svg/settings.svg').default;
+const sunSvg = require('../../images/svg/sun.svg').default;
 
 const App = () => {
   return (
