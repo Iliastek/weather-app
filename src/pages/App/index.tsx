@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import settingsSVG from '../../images/svg/settings.svg'
-import SettingsCog from '../../components/SettingsCog';
-import Home from '../Home';
+import settingsSVG from '../../images/svg/settings.svg';
+import SettingsCog from '../../components/SettingsCog/index.tsx';
+import Home from '../Home/index.tsx';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Settings from '../Settings/Settings';
-import sunSvg from '../../images/svg/sun.svg'
+import sunSvg from '../../images/svg/sun.svg';
+import Settings from '../Settings/index.tsx';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <BrowserRouter>

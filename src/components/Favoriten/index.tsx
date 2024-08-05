@@ -1,5 +1,8 @@
 import React from "react"
-const Favoriten = ({ prop }) => {
+type FavoritenProps = {
+    prop: string
+}
+const Favoriten = ({ prop }: FavoritenProps) => {
     return (
         <div className="Box">
             <p>{prop}</p>
