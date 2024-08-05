@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import settingsSVG from '../../images/svg/settings.svg';
+const settingsSVG = require('../../images/svg/settings.svg').default;
 import SettingsCog from '../../components/SettingsCog/index.tsx';
 import Home from '../Home/index.tsx';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import sunSvg from '../../images/svg/sun.svg';
+const sunSvg = require('../../images/svg/sun.svg').default;
 import Settings from '../Settings/index.tsx';
 
 const App = () => {
